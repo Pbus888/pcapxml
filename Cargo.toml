@@ -1,0 +1,10 @@
+[package]
+name = "pcapxml"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rtshark  = "1"
+quick-xml = "0.37"
+clap     = { version = "4", features = ["derive"] }
+anyhow   = "1"
